@@ -26,6 +26,7 @@ export default function Navbar() {
             <Link href="/about" className="text-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
               About
             </Link>
+            {/* Dark/Light */}
             <Button
               variant="ghost"
               size="icon"
