@@ -3,7 +3,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
         - npm ci --cache .npm --prefer-offline --legacy-peer-deps
         - npx prisma generate # Prisma Client を生成
     build:
